@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "insta_stores",
+  "info": {
+    "singularName": "insta-store",
+    "pluralName": "insta-stores",
+    "displayName": "insta_store",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Banner": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Descriptions": {
+      "type": "blocks"
+    },
+    "Category": {
+      "type": "string"
+    },
+    "Page_link": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    }
+  }
+}
